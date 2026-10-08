@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cadastro do plano — Mestre da Navalha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="registration-page">
+  <header class="registration-header">
+    <div class="container">
+      <a href="index.html#inicio" class="logo" aria-label="Mestre da Navalha — início">
+        <img class="logo-image" src="img/BARBEARIA-logo.png" alt="Mestre da Navalha">
+      </a>
+      <a href="index.html#planos" class="btn btn-outline btn-sm">← Voltar aos planos</a>
+    </div>
+  </header>
+
+  <main class="registration-main">
+    <div class="container">
+      <div class="registration-layout" data-plan-registration>
+        <section class="registration-summary" aria-labelledby="registrationTitle">
+          <span class="eyebrow">Assinatura exclusiva</span>
+          <h1 id="registrationTitle">Cadastre-se no seu plano</h1>
+          <p>Confira os benefícios e preencha seus dados para solicitar sua assinatura.</p>
+          <div class="registration-plan" id="registrationPlan" aria-live="polite"></div>
+        </section>
+
+        <form class="registration-form" id="planRegistrationForm">
+          <h2>Seus dados</h2>
+          <p>Use seus dados de contato para que nossa equipe possa falar com você.</p>
+          <div class="registration-fields">
+            <div class="field">
+              <label for="customerName">Nome completo</label>
+              <input id="customerName" name="nome" type="text" autocomplete="name" placeholder="Seu nome completo" required>
+            </div>
+            <div class="field">
+              <label for="customerPhone">Telefone / WhatsApp</label>
+              <input id="customerPhone" name="telefone" type="tel" autocomplete="tel" placeholder="(11) 90000-0000" required>
+            </div>
+            <div class="field">
+              <label for="customerEmail">E-mail</label>
+              <input id="customerEmail" name="email" type="email" autocomplete="email" placeholder="voce@email.com" required>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">Continuar cadastro →</button>
+          <p class="registration-notice" id="registrationNotice" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+      <div class="registration-error" id="registrationError" hidden>
+        <h1>Plano não encontrado</h1>
+        <p>Volte à página de planos e escolha uma das opções disponíveis.</p>
+        <a href="index.html#planos" class="btn btn-primary">Ver planos</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="registration-footer">
+    <p>© <span id="year"></span> Ateliê Mestre da Navalha. Todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

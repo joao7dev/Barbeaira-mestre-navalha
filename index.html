@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mestre da Navalha — Barbearia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <a href="#" class="logo">
+      <img class="logo-image" src="img/BARBEARIA-logo.png" alt="Mestre da Navalha">
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#inicio">Início</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#planos">Planos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="#agendamento" class="btn btn-primary btn-sm">Agendar</a>
+      <span class="user-ico"><span class="icon-glyph">👤</span></span>
+      <button class="burger" id="burger" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="inicio">
+  <div class="container">
+    <div class="hero-content">
+      <span class="eyebrow">Cortes • Barbas • Estilo • Experiência</span>
+      <h1>SEU ESTILO<br><span class="accent">COMEÇA AQUI.</span></h1>
+      <p class="lead">Barba, cabelo e aquele visual impecável. Agende seu horário de forma rápida e fácil no nosso santuário contemporâneo de cuidados masculinos.</p>
+      <div class="hero-ctas">
+        <a href="#agendamento" class="btn btn-primary">Agendar horário →</a>
+        <a href="#planos" class="btn btn-outline">Conhecer planos</a>
+      </div>
+      <div class="stats-row">
+        <div class="stat"><b>+5.000</b><span>Clientes atendidos</span></div>
+        <div class="stat"><b>4.9 <span class="star">★</span></b><span>Avaliação média</span></div>
+        <div class="stat"><b>10 Barbeiros</b><span>Mestres especialistas</span></div>
+      </div>
+    </div>
+    <div class="hero-media">
+      <div class="ph ph-hero"><img src="img/foto-barba.png" alt="Barbeiro em atendimento"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="services" id="servicos">
+  <div class="container">
+    <div class="section-head">
+      <div><span class="eyebrow">Cardápio exclusivo</span><h2>NOSSOS SERVIÇOS</h2></div>
+      <p>Tudo para manter seu estilo sempre em dia. Cortes executados com lâminas afiadas, toalhas aquecidas e cosméticos artesanais.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-top">
+          <span class="service-ico"><span class="icon-glyph">✂️</span></span>
+          <div class="service-name-row"><h3>Corte Masculino</h3><span class="service-price">R$ 40,00</span></div>
+        </div>
+        <span class="service-dur">40 min</span>
+        <p class="desc">Corte personalizado realizado de acordo com seu estilo, simetria facial e preferência de finalização.</p>
+        <a href="#agendamento" class="btn btn-outline btn-sm btn-block">Agendar ›</a>
+      </div>
+      <div class="service-card">
+        <div class="service-top">
+          <span class="service-ico"><span class="icon-glyph">🪒</span></span>
+          <div class="service-name-row"><h3>Barba</h3><span class="service-price">R$ 30,00</span></div>
+        </div>
+        <span class="service-dur">30 min</span>
+        <p class="desc">Modelagem e acabamento com toalha quente, óleos essenciais e navalhete para uma barba impecável.</p>
+        <a href="#agendamento" class="btn btn-outline btn-sm btn-block">Agendar ›</a>
+      </div>
+      <div class="service-card">
+        <div class="service-top">
+          <span class="service-ico"><span class="icon-glyph">💈</span></span>
+          <div class="service-name-row"><h3>Corte + Barba</h3><span class="service-price">R$ 65,00</span></div>
+        </div>
+        <span class="service-dur">60 min</span>
+        <p class="desc">O combo completo para renovar seu visual com precisão de navalha e alinhamento facial completo.</p>
+        <a href="#agendamento" class="btn btn-outline btn-sm btn-block">Agendar ›</a>
+      </div>
+      <div class="service-card">
+        <div class="service-top">
+          <span class="service-ico"><span class="icon-glyph">🧴</span></span>
+          <div class="service-name-row"><h3>Acabamento</h3><span class="service-price">R$ 20,00</span></div>
+        </div>
+        <span class="service-dur">20 min</span>
+        <p class="desc">Acabamento rápido no pezinho e contornos para manter o corte sempre alinhado entre manutenções.</p>
+        <a href="#agendamento" class="btn btn-outline btn-sm btn-block">Agendar ›</a>
+      </div>
+      <div class="service-card">
+        <div class="service-top">
+          <span class="service-ico"><span class="icon-glyph">〰️</span></span>
+          <div class="service-name-row"><h3>Sobrancelha</h3><span class="service-price">R$ 15,00</span></div>
+        </div>
+        <span class="service-dur">15 min</span>
+        <p class="desc">Design e limpeza masculina na navalha, com naturalidade e definição das linhas de expressão.</p>
+        <a href="#agendamento" class="btn btn-outline btn-sm btn-block">Agendar ›</a>
+      </div>
+      <div class="service-card service-card--hi">
+        <span class="vip-tag">VIP</span>
+        <div class="service-top">
+          <span class="service-ico"><span class="icon-glyph">👑</span></span>
+          <div class="service-name-row"><h3>Combo Completo</h3><span class="service-price">R$ 75,00</span></div>
+        </div>
+        <span class="service-dur">75 min</span>
+        <p class="desc">Corte + barba + sobrancelha para um visual completo, com tratamento capilar revigorante.</p>
+        <a href="#agendamento" class="btn btn-primary btn-sm btn-block">Agendar ›</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BOOKING ============ -->
+<section class="booking" id="agendamento">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Reserva imediata</span>
+      <h2>AGENDAMENTO ONLINE</h2>
+      <p>Escolha seu serviço, especialista e horário em instantes sem complicações.</p>
+    </div>
+
+    <div class="booking-card">
+      <div class="steps">
+        <div class="step active"><b>1</b><span>Serviço</span></div>
+        <div class="step"><b>2</b><span>Barbeiro</span></div>
+        <div class="step"><b>3</b><span>Data &amp; Horário</span></div>
+        <div class="step"><b>4</b><span>Seus Dados</span></div>
+      </div>
+
+      <!-- step 1 -->
+      <div class="step-pane active">
+        <h3 class="booking-step-title">Selecione o Serviço</h3>
+        <div class="svc-grid">
+          <button class="svc-opt selected" data-service="Corte masculino"><div class="row"><b>Corte masculino</b><em>R$ 40</em></div><small>40 min de atendimento</small></button>
+          <button class="svc-opt" data-service="Barba"><div class="row"><b>Barba</b><em>R$ 30</em></div><small>30 min de atendimento</small></button>
+          <button class="svc-opt" data-service="Corte + Barba"><div class="row"><b>Corte + Barba</b><em>R$ 65</em></div><small>60 min de atendimento</small></button>
+          <button class="svc-opt" data-service="Acabamento"><div class="row"><b>Acabamento</b><em>R$ 20</em></div><small>20 min de atendimento</small></button>
+          <button class="svc-opt" data-service="Sobrancelha"><div class="row"><b>Sobrancelha</b><em>R$ 15</em></div><small>15 min de atendimento</small></button>
+          <button class="svc-opt" data-service="Combo Completo"><div class="row"><b>Combo Completo</b><em>R$ 75</em></div><small>75 min de atendimento</small></button>
+        </div>
+        <div class="booking-actions"><span></span><button class="btn btn-primary" data-next>Continuar →</button></div>
+      </div>
+
+      <!-- step 2 -->
+      <div class="step-pane">
+        <h3 class="booking-step-title">Escolha o Barbeiro</h3>
+        <div class="barber-grid">
+          <button class="barber-opt selected" data-barber="Sem preferência"><div class="av">–</div><b>Sem preferência</b><small>Primeiro disponível</small></button>
+          <button class="barber-opt" data-barber="Rafael"><div class="av">R</div><b>Rafael</b><small>Especialista em navalha</small></button>
+          <button class="barber-opt" data-barber="Diego"><div class="av">D</div><b>Diego</b><small>Cortes modernos</small></button>
+          <button class="barber-opt" data-barber="Bruno"><div class="av">B</div><b>Bruno</b><small>Barbas e degradê</small></button>
+        </div>
+        <div class="booking-actions"><button class="btn btn-outline" data-prev>← Voltar</button><button class="btn btn-primary" data-next>Continuar →</button></div>
+      </div>
+
+      <!-- step 3 -->
+      <div class="step-pane">
+        <h3 class="booking-step-title">Data &amp; Horário</h3>
+        <div class="dt-row">
+          <div class="field"><label>Data</label><input type="date" id="bookingDate"></div>
+          <div>
+            <label style="display:block;font-size:.72rem;font-weight:600;color:var(--muted);margin-bottom:8px;text-transform:uppercase;letter-spacing:.04em">Horários disponíveis</label>
+            <div class="slots">
+              <button class="slot">09:00</button><button class="slot">10:30</button><button class="slot">13:00</button><button class="slot">15:30</button>
+              <button class="slot">16:00</button><button class="slot">17:30</button><button class="slot">18:00</button><button class="slot">19:00</button>
+            </div>
+          </div>
+        </div>
+        <div class="booking-actions"><button class="btn btn-outline" data-prev>← Voltar</button><button class="btn btn-primary" data-next>Continuar →</button></div>
+      </div>
+
+      <!-- step 4 -->
+      <div class="step-pane">
+        <h3 class="booking-step-title">Seus Dados</h3>
+        <div class="form-grid">
+          <div class="field"><label>Nome completo</label><input type="text" placeholder="Seu nome"></div>
+          <div class="field"><label>Telefone / WhatsApp</label><input type="tel" placeholder="(11) 90000-0000"></div>
+          <div class="field full"><label>E-mail</label><input type="email" placeholder="voce@email.com"></div>
+        </div>
+        <div class="booking-actions"><button class="btn btn-outline" data-prev>← Voltar</button><button class="btn btn-primary" data-next>Confirmar agendamento</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PLANS ============ -->
+<section class="plans" id="planos">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Assinaturas exclusivas</span>
+      <h2>PLANOS PARA QUEM NÃO ABRE MÃO DO ESTILO.</h2>
+      <p>Escolha seu plano e mantenha seu visual sempre em dia, com descontos expressivos e agendamento VIP.</p>
+    </div>
+    <div class="plans-grid">
+      <div class="plan-card">
+        <span class="tag tag-outline">Básico &amp; Prático</span>
+        <h3>Plano Essencial</h3>
+        <p class="desc">Ideal para manutenção frequente do corte.</p>
+        <div class="plan-price"><b>R$ 69,90</b><span>/mês</span></div>
+        <p class="plan-old"><s>De R$ 80,00</s> por R$ 69,90 <em>(economia de R$ 10,10)</em></p>
+        <ul class="plan-feats">
+          <li>2 cortes por mês</li>
+          <li>Agendamento prioritário</li>
+          <li>Validade mensal flexível</li>
+        </ul>
+        <a href="cadastro-plano.html?plano=essencial" class="btn btn-outline btn-block">Escolher um plano</a>
+      </div>
+      <div class="plan-card plan-card--hi">
+        <span class="tag tag-red plan-badge">★ Mais escolhido</span>
+        <span class="tag tag-outline">O mais completo</span>
+        <h3>Plano Premium</h3>
+        <p class="desc">Para homens que cuidam de corte e barba com frequência.</p>
+        <div class="plan-price"><b>R$ 119,90</b><span>/mês</span></div>
+        <p class="plan-old"><s>De R$ 160,00</s> por R$ 119,90 <em>(economia de R$ 40,10)</em></p>
+        <ul class="plan-feats">
+          <li>4 cortes por mês</li>
+          <li>1 barba completa por mês</li>
+          <li>Agendamento prioritário no app</li>
+          <li>Validade automática</li>
+          <li>Cerveja artesanal ou café cortesia</li>
+        </ul>
+        <a href="cadastro-plano.html?plano=premium" class="btn btn-primary btn-block">Escolher um plano</a>
+      </div>
+      <div class="plan-card">
+        <span class="tag tag-outline">Experiência VIP</span>
+        <h3>Plano Black</h3>
+        <p class="desc">Cuidado irrestrito e regalias exclusivas.</p>
+        <div class="plan-price"><b>R$ 169,90</b><span>/mês</span></div>
+        <p class="plan-old">Ilimitado &amp; experiência total</p>
+        <ul class="plan-feats">
+          <li>Até 4 cortes por mês</li>
+          <li>4 barboterapias completas</li>
+          <li>1 sobrancelha gratuita por mês</li>
+          <li>Fila zero e atendimento prioritário</li>
+          <li>Desconto de 15% em pomadas e loções</li>
+        </ul>
+        <a href="cadastro-plano.html?plano=black" class="btn btn-outline btn-block">Escolher um plano</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PHILOSOPHY ============ -->
+<section class="philosophy" id="sobre">
+  <div class="container">
+    <div class="phi-media">
+      <div class="ph ph-tall">
+        <img src="img/barbeiro.png" alt="Barbeiro finalizando o corte">
+       
+      </div>
+      <div class="phi-badge">10+<small>Anos de tradição metropolitana</small></div>
+    </div>
+    <div>
+      <span class="eyebrow">Nossa filosofia</span>
+      <h2>MAIS QUE UM CORTE. UMA EXPERIÊNCIA.</h2>
+      <p>Mais do que cortar cabelo, criamos experiências. Nossa barbearia combina estilo, precisão artesanal e atendimento personalizado para você sair sempre com o visual em dia.</p>
+      <div class="feat-grid">
+        <div class="feat-item"><span class="service-ico"><span class="icon-glyph">🎓</span></span><div><h4>Profissionais Especializados</h4><p>Barbeiros qualificados e preparados para diferentes estilos e formatos.</p></div></div>
+        <div class="feat-item"><span class="service-ico"><span class="icon-glyph">🛋️</span></span><div><h4>Ambiente Confortável</h4><p>Um refúgio urbano pensado especialmente para relaxar, chegar e ficar à vontade.</p></div></div>
+        <div class="feat-item"><span class="service-ico"><span class="icon-glyph">🧴</span></span><div><h4>Produtos de Qualidade</h4><p>Pomadas, óleos e técnicas selecionadas das melhores marcas mundiais.</p></div></div>
+        <div class="feat-item"><span class="service-ico"><span class="icon-glyph">🤝</span></span><div><h4>Atendimento Personalizado</h4><p>Construímos sua imagem: cada cliente possui seu próprio estilo único.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PORTFOLIO ============ -->
+<section class="portfolio" id="galeria">
+  <div class="container">
+    <div class="section-head">
+      <div><span class="eyebrow">Portfólio &amp; cortes</span><h2>NOSSO TRABALHO</h2></div>
+      <p>Acompanhe o nível de detalhamento e acabamento executado pela nossa equipe diariamente.</p>
+    </div>
+    <div class="portfolio-strip">
+      <div class="ph ph-square">
+        <img src="img/foto 1.jpg" alt="Corte masculino premium">
+      </div>
+      <div class="ph ph-square">
+        <img src="img/foto 2.png" alt="Barba modelada e precisa">
+      </div>
+      <div class="ph ph-square">
+        <img src="img/foto 3.png" alt="Visual sofisticado em barbearia">
+        
+      </div>
+      <div class="ph ph-square">
+        <img src="img/foto 4.png" alt="Detalhe de acabamento masculino">
+       
+      </div>
+      <div class="ph ph-square">
+        <img src="img/foto 5.png" alt="Cuidados com produtos premium">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="testimonials">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Feedback de quem confia</span>
+      <h2>QUEM VIVE A EXPERIÊNCIA, APROVA.</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"Atendimento excelente e corte impecável. Já virei cliente fiel!"</p>
+        <div class="testi-who"><span class="av">BA</span><div><b>Bruno Alcantara</b><span>Cliente há 1 ano</span></div></div>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"Ambiente muito bom e os barbeiros são excelentes. Recomendo."</p>
+        <div class="testi-who"><span class="av">DS</span><div><b>Diego Santos</b><span>Cliente há 6 meses</span></div></div>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p class="quote">"O plano mensal facilitou muito minha rotina. Sempre consigo manter o corte em dia."</p>
+        <div class="testi-who"><span class="av">LF</span><div><b>Lucas Ferreira</b><span>Assinante Plano Premium</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOCATION ============ -->
+<section class="location" id="contato">
+  <div class="container">
+    <div>
+      <span class="eyebrow">Localização estratégica</span>
+      <h2 style="font-size:clamp(1.9rem,3.2vw,2.4rem);margin-bottom:14px">VISITE NOSSO SALÃO</h2>
+      <p style="color:var(--muted);margin-bottom:36px">Localização privilegiada no coração de São Paulo, com valet cortesia e facilidade de acesso.</p>
+
+      <div class="info-item"><span class="service-ico"><span class="icon-glyph">📍</span></span><div><h4>Endereço</h4><p>Av. Paulista, 1230 — Bela Vista, São Paulo - SP</p></div></div>
+      <div class="info-item"><span class="service-ico"><span class="icon-glyph">🕒</span></span><div><h4>Horário de Funcionamento</h4><p>Segunda a Sexta: 09:00 às 20:00<br>Domingo: Fechado</p></div></div>
+      <div class="info-item"><span class="service-ico"><span class="icon-glyph">📱</span></span><div><h4>WhatsApp &amp; Contato</h4><p>@mestredanavalhabr</p></div></div>
+      <a href="https://www.google.com/maps?q=Av.+Paulista,+1230,+São+Paulo" target="_blank" rel="noopener" class="btn btn-primary">Como chegar</a>
+    </div>
+    <div class="map-frame">
+      <iframe loading="lazy" src="https://www.google.com/maps?q=Av.+Paulista,+1230,+S%C3%A3o+Paulo&output=embed" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div>
+        <a href="#" class="logo" style="margin-bottom:18px;display:inline-flex">
+          <img class="logo-image" src="img/BARBEARIA-logo.png" alt="Mestre da Navalha">
+        </a>
+        <p>Santuário contemporâneo de cuidados masculinos. Tradição artesanal com maestria e sofisticação no coração metropolitano.</p>
+        <div class="social-row">
+          <a href="#" aria-label="Instagram"><span class="icon-glyph">📷</span></a>
+          <a href="#" aria-label="Facebook"><span class="icon-glyph">📘</span></a>
+          <a href="#" aria-label="WhatsApp"><span class="icon-glyph">💬</span></a>
+        </div>
+      </div>
+      <div>
+        <h5>Navegação</h5>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#servicos">Serviços especializados</a></li>
+          <li><a href="#planos">Clubes &amp; assinaturas</a></li>
+          <li><a href="#sobre">Nossa filosofia</a></li>
+          <li><a href="#galeria">Galeria &amp; cortes</a></li>
+          <li><a href="#agendamento">Reserva online</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Atendimento</h5>
+        <ul>
+          <li>Segunda a Sexta: 09:00 – 21:00</li>
+          <li>Sábado: 09:00 – 19:00</li>
+          <li>Domingo &amp; feriados: Fechado</li>
+        </ul>
+        <p style="margin-top:14px">Estacionamento cortesia e bar lounge — você está sempre bem-vindo aqui.</p>
+      </div>
+      <div>
+        <h5>Unidade &amp; Contato</h5>
+        <ul>
+          <li>Av. Brigadeiro Faria Lima, 1477 — Itaim Bibi, São Paulo</li>
+          <li>+55 (11) 5048-8890</li>
+          <li>contato@mestredanavalha.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© <span id="year"></span> Ateliê Mestre da Navalha. Todos os direitos reservados.</p>
+      <div class="links"><a href="#">Privacidade</a><a href="#">Termos de Serviço</a><a href="#">Cookies</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
